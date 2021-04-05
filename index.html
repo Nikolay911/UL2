@@ -1,0 +1,84 @@
+<!DOCTYPE html
+	PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru">
+
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<title>Калькулятор</title>
+	<link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <script src =" ./script.js "></script>
+
+</head>
+
+<body>
+	<div id="wrapper">
+		<div id="container">
+			<div id="bg-container">
+				<!--============================================================================-->
+				<!--================================  ===============================-->
+				<!--============================================================================-->
+				<div class="main">
+					<div class="content">
+						<!--============================================================================-->
+						<!--============================ ============================-->
+						<!--============================================================================-->
+						<div id="front-info">
+							<h1><span class="theme-color">Online-</span>решение</h1>
+							<div class="clear"></div>
+							<h2 class="jobtitle">квадратных уравнений</h2>
+						</div>
+						<div class="clear"></div>
+						<div class="textblock">
+							<p id="para">
+								Если хотите <span class="theme-color">СДАТЬ ЕГЭ,</span>
+								учитесь решать <span class="theme-color">САМОСТОЯТЕЛЬНО!!!</span>
+							</p>
+						</div>
+						<!--============================================================================-->
+						<!--============================= Work Experience ==============================-->
+						<!--============================================================================-->
+						<div class="item">
+							<h2 class="h-border theme-color">Поля для ввода</h2>
+
+							<div class="grid_12">
+								<center>
+									<b>Решение квадратного уравнения a&middot;x&sup2; + b&middot;x + c = 0.</b>
+									<form name="square" action="javascript:square_equation()">
+										a <input name="square_a" type="text" value="1" size="10">
+										b <input name="square_b" type="text" value="5" size="10">
+										c <input name="square_c" type="text" value="1" size="10">
+										<p id="iteration">0</p>
+										<input type="submit" value="посчитать" onclick="iteration()">
+									</form>
+									Решение: <span id="square_sol">Введите коэффициенты и нажмите "посчитать"</span>
+								</center>
+							</div>
+
+
+
+						</div> <!-- // .item -->
+
+
+					</div> <!-- // .content -->
+				</div> <!-- // .main -->
+				<!--============================================================================-->
+				<!--================================== SIDEBAR =================================-->
+				<!--============================================================================-->
+				<div class="sidebar">
+					<div class="content">
+
+
+
+					</div> <!-- // .content -->
+				</div> <!-- // .sidebar -->
+
+				<!-- Bottom Background -->
+				<div class="bottom-bg"></div>
+				<div class="clear"></div>
+			</div> <!-- // #bg-container -->
+		</div> <!-- // #container -->
+	</div> <!-- // #wrapper -->
+</body>
+
+</html>
